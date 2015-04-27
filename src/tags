@@ -1,0 +1,156 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+API_H	Api.h	2;"	kind:macro
+Api	Api.h	/^class Api{$/;"	kind:class
+Api::Read	Api.h	/^	int Read(const char* buf, char* res){$/;"	kind:function	class:Api	access:private	signature:(const char* buf, char* res)
+BACKLOG	Lightlib.h	/^const int BACKLOG = 5;$/;"	kind:variable
+BLOCKQUEUE_H	Lightlib.h	2;"	kind:macro
+BUF_SIZE	Lightlib.h	/^const int BUF_SIZE = 1024;$/;"	kind:variable
+CG	Epoll.h	/^	class CG$/;"	kind:class	class:Epoll	access:private
+CLOSE	Connection.h	/^	CLOSE,$/;"	kind:enumerator	enum:ConnectionState
+CONNECTION_H	Connection.h	2;"	kind:macro
+CONNET	Connection.h	/^	CONNET,$/;"	kind:enumerator	enum:ConnectionState
+Connection	Connection.h	/^	Connection(int accept_fd){$/;"	kind:function	class:Connection	access:public	signature:(int accept_fd)
+Connection	Connection.h	/^class Connection{$/;"	kind:class
+Connection::Connection	Connection.h	/^	Connection(int accept_fd){$/;"	kind:function	class:Connection	access:public	signature:(int accept_fd)
+Connection::ConnectionStateMachine	Connection.h	/^	int ConnectionStateMachine(){$/;"	kind:function	class:Connection	access:public	signature:()
+Connection::Handle	Connection.h	/^	void Handle(){$/;"	kind:function	class:Connection	access:public	signature:()
+Connection::ReadData	Connection.h	/^	void ReadData(){$/;"	kind:function	class:Connection	access:public	signature:()
+Connection::ReadHead	Connection.h	/^	void ReadHead(){$/;"	kind:function	class:Connection	access:public	signature:()
+Connection::SetState	Connection.h	/^	void SetState(ConnectionState state){$/;"	kind:function	class:Connection	access:public	signature:(ConnectionState state)
+Connection::WriteData	Connection.h	/^	void WriteData(){$/;"	kind:function	class:Connection	access:public	signature:()
+Connection::WriteEnd	Connection.h	/^	void WriteEnd(){$/;"	kind:function	class:Connection	access:public	signature:()
+Connection::WriteHead	Connection.h	/^	void WriteHead(){$/;"	kind:function	class:Connection	access:public	signature:()
+Connection::conn_stat	Connection.h	/^	ConnectionState conn_stat;$/;"	kind:member	class:Connection	access:private
+Connection::data_buf	Connection.h	/^	char data_buf[4096];$/;"	kind:member	class:Connection	access:private
+Connection::data_left_size	Connection.h	/^	int data_left_size;$/;"	kind:member	class:Connection	access:private
+Connection::data_len	Connection.h	/^	int data_len;$/;"	kind:member	class:Connection	access:private
+Connection::data_len_left_size	Connection.h	/^	int data_len_left_size;$/;"	kind:member	class:Connection	access:private
+Connection::data_offset	Connection.h	/^	int data_offset;$/;"	kind:member	class:Connection	access:private
+Connection::epl	Connection.h	/^	Epoll *epl;$/;"	kind:member	class:Connection	access:private
+Connection::fd	Connection.h	/^	int fd;$/;"	kind:member	class:Connection	access:private
+ConnectionState	Connection.h	/^enum ConnectionState{$/;"	kind:enum
+ConnectionStateMachine	Connection.h	/^	int ConnectionStateMachine(){$/;"	kind:function	class:Connection	access:public	signature:()
+EPOLL_H	Epoll.h	14;"	kind:macro
+ERR	Connection.h	/^	ERR$/;"	kind:enumerator	enum:ConnectionState
+Epoll	Epoll.h	/^	Epoll(){}$/;"	kind:function	class:Epoll	access:private	signature:()
+Epoll	Epoll.h	/^class Epoll{$/;"	kind:class
+Epoll::CG	Epoll.h	/^	class CG$/;"	kind:class	class:Epoll	access:private
+Epoll::CG::~CG	Epoll.h	/^		~CG(){$/;"	kind:function	class:Epoll::CG	access:public	signature:()
+Epoll::Epoll	Epoll.h	/^	Epoll(){}$/;"	kind:function	class:Epoll	access:private	signature:()
+Epoll::EpollAddRfd	Epoll.h	/^	int EpollAddRfd(int fd){$/;"	kind:function	class:Epoll	access:public	signature:(int fd)
+Epoll::EpollAddRptr	Epoll.h	/^	int EpollAddRptr(int fd, void *ptr){$/;"	kind:function	class:Epoll	access:public	signature:(int fd, void *ptr)
+Epoll::EpollAddWptr	Epoll.h	/^	int EpollAddWptr(int fd, void *ptr){$/;"	kind:function	class:Epoll	access:public	signature:(int fd, void *ptr)
+Epoll::EpollDel	Epoll.h	/^	int EpollDel(int fd){$/;"	kind:function	class:Epoll	access:public	signature:(int fd)
+Epoll::EpollModRptr	Epoll.h	/^	int EpollModRptr(int fd, void *ptr){$/;"	kind:function	class:Epoll	access:public	signature:(int fd, void *ptr)
+Epoll::EpollModWptr	Epoll.h	/^	int EpollModWptr(int fd, void *ptr){$/;"	kind:function	class:Epoll	access:public	signature:(int fd, void *ptr)
+Epoll::EpollWait	Epoll.h	/^	int EpollWait(struct epoll_event *events, int maxevents, int timeout){$/;"	kind:function	class:Epoll	access:public	signature:(struct epoll_event *events, int maxevents, int timeout)
+Epoll::GetInstance	Epoll.h	/^	static Epoll* GetInstance(){$/;"	kind:function	class:Epoll	access:public	signature:()
+Epoll::Init	Epoll.h	/^	void Init(){$/;"	kind:function	class:Epoll	access:private	signature:()
+Epoll::cg	Epoll.h	/^	static CG cg;$/;"	kind:member	class:Epoll	access:private
+Epoll::epoll_instance	Epoll.h	/^	static Epoll *epoll_instance;$/;"	kind:member	class:Epoll	access:private
+Epoll::epoll_instance	Epoll.h	/^Epoll* Epoll::epoll_instance = NULL;$/;"	kind:member	class:Epoll
+Epoll::epollfd	Epoll.h	/^	int epollfd;$/;"	kind:member	class:Epoll	access:private
+EpollAddRfd	Epoll.h	/^	int EpollAddRfd(int fd){$/;"	kind:function	class:Epoll	access:public	signature:(int fd)
+EpollAddRptr	Epoll.h	/^	int EpollAddRptr(int fd, void *ptr){$/;"	kind:function	class:Epoll	access:public	signature:(int fd, void *ptr)
+EpollAddWptr	Epoll.h	/^	int EpollAddWptr(int fd, void *ptr){$/;"	kind:function	class:Epoll	access:public	signature:(int fd, void *ptr)
+EpollDel	Epoll.h	/^	int EpollDel(int fd){$/;"	kind:function	class:Epoll	access:public	signature:(int fd)
+EpollModRptr	Epoll.h	/^	int EpollModRptr(int fd, void *ptr){$/;"	kind:function	class:Epoll	access:public	signature:(int fd, void *ptr)
+EpollModWptr	Epoll.h	/^	int EpollModWptr(int fd, void *ptr){$/;"	kind:function	class:Epoll	access:public	signature:(int fd, void *ptr)
+EpollWait	Epoll.h	/^	int EpollWait(struct epoll_event *events, int maxevents, int timeout){$/;"	kind:function	class:Epoll	access:public	signature:(struct epoll_event *events, int maxevents, int timeout)
+Front	TimeHeap.h	/^	int Front(HeapObj &obj){$/;"	kind:function	class:MinHeap	access:public	signature:(HeapObj &obj)
+GetAlrmTime	TimeHeap.h	/^	int GetAlrmTime(){ return alrm_time; }$/;"	kind:function	class:HeapObj	access:public	signature:()
+GetInstance	Epoll.h	/^	static Epoll* GetInstance(){$/;"	kind:function	class:Epoll	access:public	signature:()
+GetPtr	TimeHeap.h	/^	void* GetPtr(){ return ptr; }$/;"	kind:function	class:HeapObj	access:public	signature:()
+HANDLE	Connection.h	/^	HANDLE,$/;"	kind:enumerator	enum:ConnectionState
+Handle	Connection.h	/^	void Handle(){$/;"	kind:function	class:Connection	access:public	signature:()
+HeapObj	TimeHeap.h	/^	HeapObj(){$/;"	kind:function	class:HeapObj	access:public	signature:()
+HeapObj	TimeHeap.h	/^	HeapObj(const HeapObj &obj){$/;"	kind:function	class:HeapObj	access:public	signature:(const HeapObj &obj)
+HeapObj	TimeHeap.h	/^	HeapObj(int t, void *p){$/;"	kind:function	class:HeapObj	access:public	signature:(int t, void *p)
+HeapObj	TimeHeap.h	/^class HeapObj{$/;"	kind:class
+HeapObj::GetAlrmTime	TimeHeap.h	/^	int GetAlrmTime(){ return alrm_time; }$/;"	kind:function	class:HeapObj	access:public	signature:()
+HeapObj::GetPtr	TimeHeap.h	/^	void* GetPtr(){ return ptr; }$/;"	kind:function	class:HeapObj	access:public	signature:()
+HeapObj::HeapObj	TimeHeap.h	/^	HeapObj(){$/;"	kind:function	class:HeapObj	access:public	signature:()
+HeapObj::HeapObj	TimeHeap.h	/^	HeapObj(const HeapObj &obj){$/;"	kind:function	class:HeapObj	access:public	signature:(const HeapObj &obj)
+HeapObj::HeapObj	TimeHeap.h	/^	HeapObj(int t, void *p){$/;"	kind:function	class:HeapObj	access:public	signature:(int t, void *p)
+HeapObj::alrm_time	TimeHeap.h	/^	int alrm_time;$/;"	kind:member	class:HeapObj	access:public
+HeapObj::operator <	TimeHeap.h	/^	bool operator<(const HeapObj &obj){$/;"	kind:function	class:HeapObj	access:public	signature:(const HeapObj &obj)
+HeapObj::operator =	TimeHeap.h	/^	HeapObj& operator=(const HeapObj &obj){$/;"	kind:function	class:HeapObj	access:public	signature:(const HeapObj &obj)
+HeapObj::operator >	TimeHeap.h	/^	bool operator>(const HeapObj &obj){$/;"	kind:function	class:HeapObj	access:public	signature:(const HeapObj &obj)
+HeapObj::ptr	TimeHeap.h	/^	void *ptr;$/;"	kind:member	class:HeapObj	access:public
+HeapObj::~HeapObj	TimeHeap.h	/^	~HeapObj(){}$/;"	kind:function	class:HeapObj	access:public	signature:()
+IP	Lightlib.h	/^const char* IP = "127.0.0.1";$/;"	kind:variable
+Init	Epoll.h	/^	void Init(){$/;"	kind:function	class:Epoll	access:private	signature:()
+MAX_EVENT_NUMBER	Lightlib.h	/^const int MAX_EVENT_NUMBER = 5;$/;"	kind:variable
+MINHEAP_H	TimeHeap.h	2;"	kind:macro
+MinHeap	TimeHeap.h	/^	MinHeap():size(0), capacity(10){$/;"	kind:function	class:MinHeap	access:public	signature:()
+MinHeap	TimeHeap.h	/^	MinHeap(int num):size(0), capacity(num){$/;"	kind:function	class:MinHeap	access:public	signature:(int num)
+MinHeap	TimeHeap.h	/^class MinHeap$/;"	kind:class
+MinHeap::Front	TimeHeap.h	/^	int Front(HeapObj &obj){$/;"	kind:function	class:MinHeap	access:public	signature:(HeapObj &obj)
+MinHeap::MinHeap	TimeHeap.h	/^	MinHeap():size(0), capacity(10){$/;"	kind:function	class:MinHeap	access:public	signature:()
+MinHeap::MinHeap	TimeHeap.h	/^	MinHeap(int num):size(0), capacity(num){$/;"	kind:function	class:MinHeap	access:public	signature:(int num)
+MinHeap::Pop	TimeHeap.h	/^	int Pop(HeapObj &obj){$/;"	kind:function	class:MinHeap	access:public	signature:(HeapObj &obj)
+MinHeap::ResizeData	TimeHeap.h	/^	void ResizeData(){$/;"	kind:function	class:MinHeap	access:private	signature:()
+MinHeap::Size	TimeHeap.h	/^	int Size(){$/;"	kind:function	class:MinHeap	access:public	signature:()
+MinHeap::capacity	TimeHeap.h	/^	int capacity;$/;"	kind:member	class:MinHeap	access:private
+MinHeap::data	TimeHeap.h	/^	HeapObj *data;$/;"	kind:member	class:MinHeap	access:private
+MinHeap::push	TimeHeap.h	/^	void push(HeapObj obj){$/;"	kind:function	class:MinHeap	access:public	signature:(HeapObj obj)
+MinHeap::size	TimeHeap.h	/^	int size;$/;"	kind:member	class:MinHeap	access:private
+MinHeap::~MinHeap	TimeHeap.h	/^	~MinHeap(){$/;"	kind:function	class:MinHeap	access:public	signature:()
+PORT	Lightlib.h	/^const int PORT = 12345;$/;"	kind:variable
+Pop	TimeHeap.h	/^	int Pop(HeapObj &obj){$/;"	kind:function	class:MinHeap	access:public	signature:(HeapObj &obj)
+READ_DATA	Connection.h	/^	READ_DATA,$/;"	kind:enumerator	enum:ConnectionState
+READ_END	Connection.h	/^	READ_END,$/;"	kind:enumerator	enum:ConnectionState
+READ_HEAD	Connection.h	/^	READ_HEAD,$/;"	kind:enumerator	enum:ConnectionState
+Read	Api.h	/^	int Read(const char* buf, char* res){$/;"	kind:function	class:Api	access:private	signature:(const char* buf, char* res)
+ReadData	Connection.h	/^	void ReadData(){$/;"	kind:function	class:Connection	access:public	signature:()
+ReadHead	Connection.h	/^	void ReadHead(){$/;"	kind:function	class:Connection	access:public	signature:()
+ResizeData	TimeHeap.h	/^	void ResizeData(){$/;"	kind:function	class:MinHeap	access:private	signature:()
+SetNoBlocking	Lightlib.h	/^int SetNoBlocking(int fd){$/;"	kind:function	signature:(int fd)
+SetState	Connection.h	/^	void SetState(ConnectionState state){$/;"	kind:function	class:Connection	access:public	signature:(ConnectionState state)
+SigAlrm	Server.cpp	/^static void SigAlrm(int signo){$/;"	kind:function	file:	signature:(int signo)
+SigAlrm	TimeHeap.h	/^static void SigAlrm(int signo){$/;"	kind:function	signature:(int signo)
+Size	TimeHeap.h	/^	int Size(){$/;"	kind:function	class:MinHeap	access:public	signature:()
+SocketServer	Lightlib.h	/^int SocketServer(){$/;"	kind:function	signature:()
+TimeHeap	TimeHeap.h	/^class TimeHeap(){$/;"	kind:function	signature:()
+TimeHeap::instance	TimeHeap.h	/^TimeHeap* TimeHeap::instance = NULL;$/;"	kind:member	class:TimeHeap
+WRITE_DATA	Connection.h	/^	WRITE_DATA,$/;"	kind:enumerator	enum:ConnectionState
+WRITE_END	Connection.h	/^	WRITE_END,$/;"	kind:enumerator	enum:ConnectionState
+WRITE_HEAD	Connection.h	/^	WRITE_HEAD,$/;"	kind:enumerator	enum:ConnectionState
+WriteData	Connection.h	/^	void WriteData(){$/;"	kind:function	class:Connection	access:public	signature:()
+WriteEnd	Connection.h	/^	void WriteEnd(){$/;"	kind:function	class:Connection	access:public	signature:()
+WriteHead	Connection.h	/^	void WriteHead(){$/;"	kind:function	class:Connection	access:public	signature:()
+alrm_time	TimeHeap.h	/^	int alrm_time;$/;"	kind:member	class:HeapObj	access:public
+capacity	TimeHeap.h	/^	int capacity;$/;"	kind:member	class:MinHeap	access:private
+cg	Epoll.h	/^	static CG cg;$/;"	kind:member	class:Epoll	access:private
+conn_stat	Connection.h	/^	ConnectionState conn_stat;$/;"	kind:member	class:Connection	access:private
+data	TimeHeap.h	/^	HeapObj *data;$/;"	kind:member	class:MinHeap	access:private
+data_buf	Connection.h	/^	char data_buf[4096];$/;"	kind:member	class:Connection	access:private
+data_left_size	Connection.h	/^	int data_left_size;$/;"	kind:member	class:Connection	access:private
+data_len	Connection.h	/^	int data_len;$/;"	kind:member	class:Connection	access:private
+data_len_left_size	Connection.h	/^	int data_len_left_size;$/;"	kind:member	class:Connection	access:private
+data_offset	Connection.h	/^	int data_offset;$/;"	kind:member	class:Connection	access:private
+epl	Connection.h	/^	Epoll *epl;$/;"	kind:member	class:Connection	access:private
+epoll_instance	Epoll.h	/^	static Epoll *epoll_instance;$/;"	kind:member	class:Epoll	access:private
+epoll_instance	Epoll.h	/^Epoll* Epoll::epoll_instance = NULL;$/;"	kind:member	class:Epoll
+epollfd	Epoll.h	/^	int epollfd;$/;"	kind:member	class:Epoll	access:private
+fd	Connection.h	/^	int fd;$/;"	kind:member	class:Connection	access:private
+instance	TimeHeap.h	/^TimeHeap* TimeHeap::instance = NULL;$/;"	kind:member	class:TimeHeap
+main	Client.cpp	/^int main(int argc, char **argv){$/;"	kind:function	signature:(int argc, char **argv)
+main	Server.cpp	/^int main(){$/;"	kind:function	signature:()
+operator <	TimeHeap.h	/^	bool operator<(const HeapObj &obj){$/;"	kind:function	class:HeapObj	access:public	signature:(const HeapObj &obj)
+operator =	TimeHeap.h	/^	HeapObj& operator=(const HeapObj &obj){$/;"	kind:function	class:HeapObj	access:public	signature:(const HeapObj &obj)
+operator >	TimeHeap.h	/^	bool operator>(const HeapObj &obj){$/;"	kind:function	class:HeapObj	access:public	signature:(const HeapObj &obj)
+ptr	TimeHeap.h	/^	void *ptr;$/;"	kind:member	class:HeapObj	access:public
+push	TimeHeap.h	/^	void push(HeapObj obj){$/;"	kind:function	class:MinHeap	access:public	signature:(HeapObj obj)
+shut_down	Server.cpp	/^static bool shut_down = false;$/;"	kind:variable	file:
+size	TimeHeap.h	/^	int size;$/;"	kind:member	class:MinHeap	access:private
+time_heap	Server.cpp	/^static TimeHeap time_heap = TimeHeap::GetInstance()->heap;$/;"	kind:variable	file:
+time_heap	TimeHeap.h	/^static MinHeap time_heap;$/;"	kind:variable
+~CG	Epoll.h	/^		~CG(){$/;"	kind:function	class:Epoll::CG	access:public	signature:()
+~HeapObj	TimeHeap.h	/^	~HeapObj(){}$/;"	kind:function	class:HeapObj	access:public	signature:()
+~MinHeap	TimeHeap.h	/^	~MinHeap(){$/;"	kind:function	class:MinHeap	access:public	signature:()

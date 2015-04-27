@@ -1,0 +1,183 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Addfd	EpollTest.cpp	/^extern int Addfd(int epollfd, int fd);$/;"	kind:prototype	file:	signature:(int epollfd, int fd)
+Addfd	Test.h	/^int Addfd(int epollfd, int fd){$/;"	kind:function	signature:(int epollfd, int fd)
+B	BitAlignTest.cpp	/^struct B{ $/;"	kind:struct	file:
+B::a	BitAlignTest.cpp	/^       char a;$/;"	kind:member	struct:B	file:	access:public
+B::b	BitAlignTest.cpp	/^       int b;$/;"	kind:member	struct:B	file:	access:public
+B::c	BitAlignTest.cpp	/^       short c;$/;"	kind:member	struct:B	file:	access:public
+B::d	BitAlignTest.cpp	/^       char d;$/;"	kind:member	struct:B	file:	access:public
+BACKLOG	ClientTest.cpp	/^const int BACKLOG = 5;$/;"	kind:variable
+BACKLOG	EpollFdTest.cpp	/^const int BACKLOG = 5;$/;"	kind:variable
+BACKLOG	SocketTest.cpp	/^const int BACKLOG = 5;$/;"	kind:variable
+BACKLOG	Test.h	/^const int BACKLOG = 5;$/;"	kind:variable
+BLOCKQUEUE_H	Test.h	14;"	kind:macro
+BUF_SIZE	ClientTest.cpp	/^const int BUF_SIZE = 1024;$/;"	kind:variable
+BUF_SIZE	EpollFdTest.cpp	/^const int BUF_SIZE = 1024;$/;"	kind:variable
+BUF_SIZE	SocketTest.cpp	/^const int BUF_SIZE = 1024;$/;"	kind:variable
+BUF_SIZE	Test.h	/^const int BUF_SIZE = 1024;$/;"	kind:variable
+CharFun	StringTest.cpp	/^void CharFun(char *ch){}$/;"	kind:function	signature:(char *ch)
+DYNAMICLIB2_H	DynamicLib2.h	14;"	kind:macro
+Front	TimeHeap.cpp	/^	int Front(HeapObj &obj){$/;"	kind:function	class:MinHeap	access:public	signature:(HeapObj &obj)
+GetAlrmTime	TimeHeap.cpp	/^	int GetAlrmTime(){ return alrm_time; }$/;"	kind:function	class:HeapObj	access:public	signature:()
+GetPtr	TimeHeap.cpp	/^	void* GetPtr(){ return ptr; }$/;"	kind:function	class:HeapObj	access:public	signature:()
+HeapObj	TimeHeap.cpp	/^	HeapObj(){$/;"	kind:function	class:HeapObj	access:public	signature:()
+HeapObj	TimeHeap.cpp	/^	HeapObj(const HeapObj &obj){$/;"	kind:function	class:HeapObj	access:public	signature:(const HeapObj &obj)
+HeapObj	TimeHeap.cpp	/^	HeapObj(int t, void *p){$/;"	kind:function	class:HeapObj	access:public	signature:(int t, void *p)
+HeapObj	TimeHeap.cpp	/^class HeapObj{$/;"	kind:class	file:
+HeapObj::GetAlrmTime	TimeHeap.cpp	/^	int GetAlrmTime(){ return alrm_time; }$/;"	kind:function	class:HeapObj	access:public	signature:()
+HeapObj::GetPtr	TimeHeap.cpp	/^	void* GetPtr(){ return ptr; }$/;"	kind:function	class:HeapObj	access:public	signature:()
+HeapObj::HeapObj	TimeHeap.cpp	/^	HeapObj(){$/;"	kind:function	class:HeapObj	access:public	signature:()
+HeapObj::HeapObj	TimeHeap.cpp	/^	HeapObj(const HeapObj &obj){$/;"	kind:function	class:HeapObj	access:public	signature:(const HeapObj &obj)
+HeapObj::HeapObj	TimeHeap.cpp	/^	HeapObj(int t, void *p){$/;"	kind:function	class:HeapObj	access:public	signature:(int t, void *p)
+HeapObj::alrm_time	TimeHeap.cpp	/^	int alrm_time;$/;"	kind:member	class:HeapObj	file:	access:public
+HeapObj::operator <	TimeHeap.cpp	/^	bool operator<(const HeapObj &obj){$/;"	kind:function	class:HeapObj	access:public	signature:(const HeapObj &obj)
+HeapObj::operator =	TimeHeap.cpp	/^	HeapObj& operator=(const HeapObj &obj){$/;"	kind:function	class:HeapObj	access:public	signature:(const HeapObj &obj)
+HeapObj::operator >	TimeHeap.cpp	/^	bool operator>(const HeapObj &obj){$/;"	kind:function	class:HeapObj	access:public	signature:(const HeapObj &obj)
+HeapObj::ptr	TimeHeap.cpp	/^	void *ptr;$/;"	kind:member	class:HeapObj	file:	access:public
+HeapObj::~HeapObj	TimeHeap.cpp	/^	~HeapObj(){}$/;"	kind:function	class:HeapObj	access:public	signature:()
+IP	ClientTest.cpp	/^const char* IP = "127.0.0.1";$/;"	kind:variable
+IP	EpollFdTest.cpp	/^const char* IP = "127.0.0.1";$/;"	kind:variable
+IP	SocketTest.cpp	/^const char* IP = "127.0.0.1";$/;"	kind:variable
+IP	Test.h	/^const char* IP = "127.0.0.1";$/;"	kind:variable
+InitDaemon	Deamon.cpp	/^void InitDaemon() $/;"	kind:function	signature:()
+Insert	TimeHeap.cpp	/^	void Insert(HeapObj obj){$/;"	kind:function	class:MinHeap	access:public	signature:(HeapObj obj)
+MAX_EVENT_NUMBER	EpollFdTest.cpp	/^const int MAX_EVENT_NUMBER = 5;$/;"	kind:variable
+MAX_EVENT_NUMBER	Test.h	/^const int MAX_EVENT_NUMBER = 5;$/;"	kind:variable
+MinHeap	MinHeapTest.cpp	/^	MinHeap():size(0), capacity(10){$/;"	kind:function	class:MinHeap	access:public	signature:()
+MinHeap	MinHeapTest.cpp	/^	MinHeap(int num):size(0), capacity(num){$/;"	kind:function	class:MinHeap	access:public	signature:(int num)
+MinHeap	MinHeapTest.cpp	/^class MinHeap$/;"	kind:class	file:
+MinHeap	TimeHeap.cpp	/^	MinHeap():size(0), capacity(10){$/;"	kind:function	class:MinHeap	access:public	signature:()
+MinHeap	TimeHeap.cpp	/^	MinHeap(int num):size(0), capacity(num){$/;"	kind:function	class:MinHeap	access:public	signature:(int num)
+MinHeap	TimeHeap.cpp	/^class MinHeap$/;"	kind:class	file:
+MinHeap::Front	TimeHeap.cpp	/^	int Front(HeapObj &obj){$/;"	kind:function	class:MinHeap	access:public	signature:(HeapObj &obj)
+MinHeap::Insert	TimeHeap.cpp	/^	void Insert(HeapObj obj){$/;"	kind:function	class:MinHeap	access:public	signature:(HeapObj obj)
+MinHeap::MinHeap	MinHeapTest.cpp	/^	MinHeap():size(0), capacity(10){$/;"	kind:function	class:MinHeap	access:public	signature:()
+MinHeap::MinHeap	MinHeapTest.cpp	/^	MinHeap(int num):size(0), capacity(num){$/;"	kind:function	class:MinHeap	access:public	signature:(int num)
+MinHeap::MinHeap	TimeHeap.cpp	/^	MinHeap():size(0), capacity(10){$/;"	kind:function	class:MinHeap	access:public	signature:()
+MinHeap::MinHeap	TimeHeap.cpp	/^	MinHeap(int num):size(0), capacity(num){$/;"	kind:function	class:MinHeap	access:public	signature:(int num)
+MinHeap::Pop	TimeHeap.cpp	/^	int Pop(HeapObj &obj){$/;"	kind:function	class:MinHeap	access:public	signature:(HeapObj &obj)
+MinHeap::ResizeData	TimeHeap.cpp	/^	void ResizeData(){$/;"	kind:function	class:MinHeap	file:	access:private	signature:()
+MinHeap::Size	TimeHeap.cpp	/^	int Size(){$/;"	kind:function	class:MinHeap	access:public	signature:()
+MinHeap::capacity	MinHeapTest.cpp	/^	int capacity;$/;"	kind:member	class:MinHeap	file:	access:private
+MinHeap::capacity	TimeHeap.cpp	/^	int capacity;$/;"	kind:member	class:MinHeap	file:	access:private
+MinHeap::data	MinHeapTest.cpp	/^	int *data;$/;"	kind:member	class:MinHeap	file:	access:private
+MinHeap::data	TimeHeap.cpp	/^	HeapObj *data;$/;"	kind:member	class:MinHeap	file:	access:private
+MinHeap::insert	MinHeapTest.cpp	/^	void insert(int num){$/;"	kind:function	class:MinHeap	access:public	signature:(int num)
+MinHeap::pop	MinHeapTest.cpp	/^	int pop(){$/;"	kind:function	class:MinHeap	access:public	signature:()
+MinHeap::size	MinHeapTest.cpp	/^	int size;$/;"	kind:member	class:MinHeap	file:	access:private
+MinHeap::size	TimeHeap.cpp	/^	int size;$/;"	kind:member	class:MinHeap	file:	access:private
+MinHeap::~MinHeap	MinHeapTest.cpp	/^	~MinHeap(){$/;"	kind:function	class:MinHeap	access:public	signature:()
+MinHeap::~MinHeap	TimeHeap.cpp	/^	~MinHeap(){$/;"	kind:function	class:MinHeap	access:public	signature:()
+PORT	ClientTest.cpp	/^const int PORT = 12345;$/;"	kind:variable
+PORT	EpollFdTest.cpp	/^const int PORT = 12345;$/;"	kind:variable
+PORT	SocketTest.cpp	/^const int PORT = 12345;$/;"	kind:variable
+PORT	Test.h	/^const int PORT = 12345;$/;"	kind:variable
+Pop	TimeHeap.cpp	/^	int Pop(HeapObj &obj){$/;"	kind:function	class:MinHeap	access:public	signature:(HeapObj &obj)
+ReadBuf	ClientTest.cpp	/^void ReadBuf(int fd){$/;"	kind:function	signature:(int fd)
+ReadBuf	SocketTest.cpp	/^void ReadBuf(int fd){$/;"	kind:function	signature:(int fd)
+ReadLock	FileClockTest.cpp	19;"	kind:macro	file:
+ReadwLock	FileClockTest.cpp	21;"	kind:macro	file:
+RegLock	FileClockTest.cpp	/^int RegLock(int fd, int cmd, int type, off_t offset, int whence, off_t len){$/;"	kind:function	signature:(int fd, int cmd, int type, off_t offset, int whence, off_t len)
+ResizeData	TimeHeap.cpp	/^	void ResizeData(){$/;"	kind:function	class:MinHeap	file:	access:private	signature:()
+Sendfd	TransferFdTest.cpp	/^int Sendfd(int fd, int fd_to _send){$/;"	kind:function	signature:(int fd, int fd_to _send)
+SetNoBlocking	EpollFdTest.cpp	/^int SetNoBlocking(int fd){$/;"	kind:function	signature:(int fd)
+SetNoBlocking	EpollTest.cpp	/^extern int SetNoBlocking(int fd);$/;"	kind:prototype	file:	signature:(int fd)
+SetNoBlocking	Test.h	/^int SetNoBlocking(int fd){$/;"	kind:function	signature:(int fd)
+SigAlrm	TimeHeap.cpp	/^static void SigAlrm(int signo){$/;"	kind:function	file:	signature:(int signo)
+Size	TimeHeap.cpp	/^	int Size(){$/;"	kind:function	class:MinHeap	access:public	signature:()
+SocketServer	EpollFdTest.cpp	/^int SocketServer(){$/;"	kind:function	signature:()
+SocketServer	EpollTest.cpp	/^extern int SocketServer();$/;"	kind:prototype	file:	signature:()
+SocketServer	SocketTest.cpp	/^int SocketServer(){$/;"	kind:function	signature:()
+SocketServer	Test.h	/^int SocketServer(){$/;"	kind:function	signature:()
+StringFun	StringTest.cpp	/^void StringFun(string& str){}$/;"	kind:function	signature:(string& str)
+TEST_NUM	Test.cpp	/^const int TEST_NUM = 1000;$/;"	kind:variable
+THREAD_NUM	ThreadTest.cpp	/^const int THREAD_NUM = 10;$/;"	kind:variable
+Test	BlockQueueTest.cpp	/^class Test$/;"	kind:class	file:
+Test	Test.cpp	/^class Test$/;"	kind:class	file:
+Test::a	BlockQueueTest.cpp	/^	int a, b, c;$/;"	kind:member	class:Test	file:	access:public
+Test::a	Test.cpp	/^	int a, b, c;$/;"	kind:member	class:Test	file:	access:public
+Test::b	BlockQueueTest.cpp	/^	int a, b, c;$/;"	kind:member	class:Test	file:	access:public
+Test::b	Test.cpp	/^	int a, b, c;$/;"	kind:member	class:Test	file:	access:public
+Test::c	BlockQueueTest.cpp	/^	int a, b, c;$/;"	kind:member	class:Test	file:	access:public
+Test::c	Test.cpp	/^	int a, b, c;$/;"	kind:member	class:Test	file:	access:public
+Test::f	Test.cpp	/^	void f(){$/;"	kind:function	class:Test	access:public	signature:()
+UnLock	FileClockTest.cpp	27;"	kind:macro	file:
+WriteBuf	ClientTest.cpp	/^void WriteBuf(int fd){$/;"	kind:function	signature:(int fd)
+WriteBuf	SocketTest.cpp	/^void WriteBuf(int fd){$/;"	kind:function	signature:(int fd)
+WriteLock	FileClockTest.cpp	23;"	kind:macro	file:
+WritewLock	FileClockTest.cpp	25;"	kind:macro	file:
+a	BitAlignTest.cpp	/^       char a;$/;"	kind:member	struct:B	file:	access:public
+a	BlockQueueTest.cpp	/^	int a, b, c;$/;"	kind:member	class:Test	file:	access:public
+a	Test.cpp	/^	int a, b, c;$/;"	kind:member	class:Test	file:	access:public
+alrm_time	TimeHeap.cpp	/^	int alrm_time;$/;"	kind:member	class:HeapObj	file:	access:public
+b	BitAlignTest.cpp	/^       int b;$/;"	kind:member	struct:B	file:	access:public
+b	BlockQueueTest.cpp	/^	int a, b, c;$/;"	kind:member	class:Test	file:	access:public
+b	Test.cpp	/^	int a, b, c;$/;"	kind:member	class:Test	file:	access:public
+blockQueue	ThreadTest.cpp	/^BlockQueue<int> blockQueue;$/;"	kind:variable
+bqueue	BlockQueueTest.cpp	/^BlockQueue<Test> bqueue;$/;"	kind:variable
+c	BitAlignTest.cpp	/^       short c;$/;"	kind:member	struct:B	file:	access:public
+c	BlockQueueTest.cpp	/^	int a, b, c;$/;"	kind:member	class:Test	file:	access:public
+c	Test.cpp	/^	int a, b, c;$/;"	kind:member	class:Test	file:	access:public
+capacity	MinHeapTest.cpp	/^	int capacity;$/;"	kind:member	class:MinHeap	file:	access:private
+capacity	TimeHeap.cpp	/^	int capacity;$/;"	kind:member	class:MinHeap	file:	access:private
+cond	ThreadTest.cpp	/^static pthread_cond_t cond = PTHREAD_COND_INITIALIZER;$/;"	kind:variable	file:
+d	BitAlignTest.cpp	/^       char d;$/;"	kind:member	struct:B	file:	access:public
+data	MinHeapTest.cpp	/^	int *data;$/;"	kind:member	class:MinHeap	file:	access:private
+data	TimeHeap.cpp	/^	HeapObj *data;$/;"	kind:member	class:MinHeap	file:	access:private
+f	Test.cpp	/^	void f(){$/;"	kind:function	class:Test	access:public	signature:()
+insert	MinHeapTest.cpp	/^	void insert(int num){$/;"	kind:function	class:MinHeap	access:public	signature:(int num)
+main	AlarmTest.cpp	/^int main(){$/;"	kind:function	signature:()
+main	BitAlignTest.cpp	/^int main() $/;"	kind:function	signature:()
+main	BlockQueueTest.cpp	/^int main(){$/;"	kind:function	signature:()
+main	ClientTest.cpp	/^int main(){$/;"	kind:function	signature:()
+main	Deamon.cpp	/^int main()$/;"	kind:function	signature:()
+main	DynamicTest.cpp	/^int main(){$/;"	kind:function	signature:()
+main	EpollFdTest.cpp	/^int main(){$/;"	kind:function	signature:()
+main	EpollTest.cpp	/^int main()$/;"	kind:function	signature:()
+main	ExternTest.cpp	/^int main(){$/;"	kind:function	signature:()
+main	FileClockTest.cpp	/^int main(){$/;"	kind:function	signature:()
+main	ForkTest.cpp	/^int main(){$/;"	kind:function	signature:()
+main	IntAndCharTest.cpp	/^int main(){$/;"	kind:function	signature:()
+main	MinHeapTest.cpp	/^int main(){$/;"	kind:function	signature:()
+main	ShareMemTest.cpp	/^int main(){$/;"	kind:function	signature:()
+main	SocketTest.cpp	/^int main(){$/;"	kind:function	signature:()
+main	StaticTest.cpp	/^int main(){$/;"	kind:function	signature:()
+main	StringTest.cpp	/^int main(){$/;"	kind:function	signature:()
+main	Test.cpp	/^int main(){$/;"	kind:function	signature:()
+main	ThreadTest.cpp	/^int main(){$/;"	kind:function	signature:()
+main	TimeHeap.cpp	/^int main(){$/;"	kind:function	signature:()
+main	UnionTest.cpp	/^int main(){$/;"	kind:function	signature:()
+multi_test	BlockQueueTest.cpp	/^void multi_test(){$/;"	kind:function	signature:()
+mutex	ThreadTest.cpp	/^static pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	kind:variable	file:
+num	DynamicLib2.h	/^	int num = 100;$/;"	kind:variable
+num	ExternTest.cpp	/^extern int num;$/;"	kind:externvar
+operator <	TimeHeap.cpp	/^	bool operator<(const HeapObj &obj){$/;"	kind:function	class:HeapObj	access:public	signature:(const HeapObj &obj)
+operator =	TimeHeap.cpp	/^	HeapObj& operator=(const HeapObj &obj){$/;"	kind:function	class:HeapObj	access:public	signature:(const HeapObj &obj)
+operator >	TimeHeap.cpp	/^	bool operator>(const HeapObj &obj){$/;"	kind:function	class:HeapObj	access:public	signature:(const HeapObj &obj)
+p_fun	DynamicTest.cpp	/^void (*p_fun)();$/;"	kind:variable
+p_test_cpp	DynamicTest.cpp	/^int (*p_test_cpp)();$/;"	kind:variable
+pop	MinHeapTest.cpp	/^	int pop(){$/;"	kind:function	class:MinHeap	access:public	signature:()
+print	DynamicLib.c	/^void print(){$/;"	kind:function
+ptr	TimeHeap.cpp	/^	void *ptr;$/;"	kind:member	class:HeapObj	file:	access:public
+sig_chld	ForkTest.cpp	/^static void sig_chld(int signo){$/;"	kind:function	file:	signature:(int signo)
+sig_fun	AlarmTest.cpp	/^void sig_fun(int abc){$/;"	kind:function	signature:(int abc)
+size	MinHeapTest.cpp	/^	int size;$/;"	kind:member	class:MinHeap	file:	access:private
+size	TimeHeap.cpp	/^	int size;$/;"	kind:member	class:MinHeap	file:	access:private
+test_fun	Test.cpp	/^void test_fun(){$/;"	kind:function	signature:()
+test_normal	Test.cpp	/^void test_normal(int *test_array, int test_size){	$/;"	kind:function	signature:(int *test_array, int test_size)
+test_pool	Test.cpp	/^void test_pool(int *test_array, int test_size, int pool_size){	$/;"	kind:function	signature:(int *test_array, int test_size, int pool_size)
+test_pop	BlockQueueTest.cpp	/^void* test_pop(void *arg){$/;"	kind:function	signature:(void *arg)
+test_push	BlockQueueTest.cpp	/^void* test_push(void *arg){$/;"	kind:function	signature:(void *arg)
+testcpp	DynamicLib2.cpp	/^int testcpp(){$/;"	kind:function	signature:()
+testcpp	DynamicLib2.h	/^	int testcpp();$/;"	kind:prototype	signature:()
+thread_fun	ThreadTest.cpp	/^void* thread_fun(void* arg){$/;"	kind:function	signature:(void* arg)
+time_heap	TimeHeap.cpp	/^static MinHeap time_heap;$/;"	kind:variable	file:
+tmp	StaticTest.cpp	/^static volatile sig_atomic_t tmp = 0;$/;"	kind:variable	file:
+~HeapObj	TimeHeap.cpp	/^	~HeapObj(){}$/;"	kind:function	class:HeapObj	access:public	signature:()
+~MinHeap	MinHeapTest.cpp	/^	~MinHeap(){$/;"	kind:function	class:MinHeap	access:public	signature:()
+~MinHeap	TimeHeap.cpp	/^	~MinHeap(){$/;"	kind:function	class:MinHeap	access:public	signature:()
